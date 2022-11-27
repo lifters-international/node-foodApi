@@ -1,22 +1,18 @@
 {
-    "version": "1.0.0",
+    "version": "1.2.0",
     "name": "@lifters-international/node-foodapi",
     "description": "Node.js wrapper for the Lifters Food API",
     "author": "Chidozie Nnaji <codingwithcn@gmail.com>",
     "main": "dist/index.js",
     "scripts": {
         "test": "nodemon --exec ts-node src/index.ts --trace-warnings",
-        "build": "npx tsc",
-        "build-publish": "npm run build && npm publish"
+        "build": "npx tsc"
     },
     "license": "MIT",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/lifters-international/node-foodApi.git",
         "directory": "@lifters-international/node-foodApi"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/lifters-international"
     },
     "bugs": {
         "url": "https://github.com/lifters-international/node-foodApi/issues"
