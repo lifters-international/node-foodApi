@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NutritionUnits = void 0;
+var NutritionUnits;
+(function (NutritionUnits) {
+    NutritionUnits["mL"] = "mL";
+    NutritionUnits["mcg"] = "mcg";
+    NutritionUnits["L"] = "L";
+    NutritionUnits["dL"] = "dL";
+    NutritionUnits["t"] = "t";
+    NutritionUnits["tsp"] = "tsp";
+    NutritionUnits["tbsp"] = "tbsp";
+    NutritionUnits["gill"] = "gill";
+    NutritionUnits["cup"] = "cup";
+    NutritionUnits["pt"] = "pt";
+    NutritionUnits["qt"] = "qt";
+    NutritionUnits["gal"] = "gal";
+    NutritionUnits["mg"] = "mg";
+    NutritionUnits["g"] = "g";
+    NutritionUnits["kg"] = "kg";
+    NutritionUnits["lb"] = "lb";
+    NutritionUnits["oz"] = "oz";
+    NutritionUnits["can"] = "can";
+    NutritionUnits["percent"] = "%";
+})(NutritionUnits = exports.NutritionUnits || (exports.NutritionUnits = {}));
